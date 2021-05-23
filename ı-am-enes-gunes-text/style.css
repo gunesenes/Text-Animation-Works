@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Modak', cursive;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+h2
+{
+    color: #aaa;
+    font-size: 7em;
+    font-weight: 300;
+    letter-spacing: 6px;
+    cursor: pointer;
+}
+
+h2 span
+{
+    transition: 0.5s;
+}
+
+h2:hover span:nth-child(1)
+{
+    margin-right: 15px;
+}
+
+h2:hover span:nth-child(2)
+{
+    margin-left: 50px;
+}
+
+h2:hover span
+{
+    color: #fff;
+    text-shadow: 0 0 10px #00f1ff,
+                 0 0 20px #00f1ff,
+                 0 0 40px #00f1ff,
+                 0 0 80px #00f1ff,
+                 0 0 120px #00f1ff,
+                 0 0 160px #00f1ff;
+}
